@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Felamande/vfs"
+	"github.com/Felamande/vfs/v2"
 )
 
 func TestInterface(t *testing.T) {

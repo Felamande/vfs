@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Felamande/vfs"
-	"github.com/Felamande/vfs/memfs"
-	"github.com/Felamande/vfs/mountfs"
+	"github.com/Felamande/vfs/v2"
+	"github.com/Felamande/vfs/v2/memfs"
+	"github.com/Felamande/vfs/v2/mountfs"
 )
 
 func Example() {

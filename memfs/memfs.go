@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Felamande/vfs"
+	"github.com/Felamande/vfs/v2"
 )
 
 var (

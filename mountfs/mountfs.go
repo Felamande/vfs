@@ -6,7 +6,7 @@ import (
 	filepath "path"
 	"strings"
 
-	"github.com/Felamande/vfs"
+	"github.com/Felamande/vfs/v2"
 )
 
 // ErrBoundary is returned if an operation

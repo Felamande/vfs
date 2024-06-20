@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Felamande/vfs"
+	"github.com/Felamande/vfs/v2"
 )
 
 // Every vfs.Filesystem could be easily wrapped
