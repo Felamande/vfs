@@ -2,9 +2,10 @@ package mountfs
 
 import (
 	"errors"
-	"github.com/blang/vfs"
 	"os"
 	"testing"
+
+	"github.com/Felamande/vfs"
 )
 
 type mountTest struct {

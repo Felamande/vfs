@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/blang/vfs"
+	"github.com/Felamande/vfs"
 )
 
 var (
@@ -77,9 +77,9 @@ func (fi fileInfo) IsDir() bool {
 
 // ModTime returns the modification time.
 // Modification time is updated on:
-// 	- Creation
-// 	- Rename
-// 	- Open (except with O_RDONLY)
+//   - Creation
+//   - Rename
+//   - Open (except with O_RDONLY)
 func (fi fileInfo) ModTime() time.Time {
 	return fi.modTime
 }

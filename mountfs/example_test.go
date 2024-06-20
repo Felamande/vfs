@@ -1,9 +1,9 @@
 package mountfs_test
 
 import (
-	"github.com/blang/vfs"
-	"github.com/blang/vfs/memfs"
-	"github.com/blang/vfs/mountfs"
+	"github.com/Felamande/vfs"
+	"github.com/Felamande/vfs/memfs"
+	"github.com/Felamande/vfs/mountfs"
 )
 
 func ExampleMountFS() {
